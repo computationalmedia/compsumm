@@ -5,10 +5,10 @@ Code, Datasets and Supplementary Appendix for AAAI-19 paper [**Comparative Docum
 
 ## How to use this repository ?
 
-### Installing
+### 1. Installing
 If you have miniconda or anaconda, please use `install.sh` to install new env `compsumm` that has all dependencies; otherwise the dependencies are listed in `environment.yml`
 
-### 1. Dataset
+### 2. Dataset
 The dataset are in directory `dataset` in `HDF5` format. There are three files for each of the three news topics used in paper. Each file has following structure:
 ```
 -- data: Averaged GLOVE vectors of title and first 3 sentences, 300 dimensional
@@ -25,7 +25,7 @@ The dataset was split 70-20-10 as train-test-val sets several times.
 ```
 Please see `news.py` for example loading of this dataset.
 
-### 2. Code
+### 3. Code
 Please see [demo notebook](/demo.ipynb) for example use of `subm.py` and `grad.py`
 - `subm.py` has utility functions and greedy optimiser for discrete optimisation.
 - `grad.py` has utility functions and SGD optimiser for continuous optimisation. SGD optimised wasn't used, LBFGS from scipy was used instead.
@@ -34,10 +34,10 @@ Please see [demo notebook](/demo.ipynb) for example use of `subm.py` and `grad.p
 
 `utils.py` has common functions such as `balanced accuracy`, which is used for evaluation.
 
-### Crowd-sourced evaluations results
+### 4. Crowd-sourced evaluations results
 The crowd-sourced evaluations results is in file `crowdflower.csv`. The design and settings for this experiment is explained [in the paper](https://arxiv.org/abs/1812.02171).
 
-### 4. Citing
+## Citing
 If you use this dataset, please cite this work at
 ```
 @inproceedings{bista2019compsumm,
