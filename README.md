@@ -1,5 +1,5 @@
 # compsumm
-Code, Datasets and Supplementary Appendix for AAAI paper **Comparative Document Summarisation via Classification**
+Code, Datasets and Supplementary Appendix for AAAI-19 paper [**Comparative Document Summarisation via Classification**](https://arxiv.org/abs/1812.02171)
 
 **Supplementary Appendix**: [pdf](/appendix.pdf)
 
@@ -35,7 +35,7 @@ Please see [demo notebook](/demo.ipynb) for example use of `subm.py` and `grad.p
 `utils.py` has common functions such as `balanced accuracy`, which is used for evaluation.
 
 ### Crowd-sourced evaluations results
-The crowd-sourced evaluations results is in file `crowdflower.csv`. The design and settings for this experiment is explained in the paper.
+The crowd-sourced evaluations results is in file `crowdflower.csv`. The design and settings for this experiment is explained [in the paper](https://arxiv.org/abs/1812.02171).
 
 ### 4. Citing
 If you use this dataset, please cite this work at
@@ -49,3 +49,4 @@ If you use this dataset, please cite this work at
   year={2019}
 }
 ```
+The paper can be [found in arxiv](https://arxiv.org/abs/1812.02171)
