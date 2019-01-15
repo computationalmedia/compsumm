@@ -18,11 +18,12 @@ The dataset are in directory `dataset` in `HDF5` format. There are three files f
 -- text: first three sentences
 -- datetime: date of publication
 
-The dataset was split 70-20-10 as train-test-val sets several times.
+The dataset was split 70-20-10 as train-test-val sets 51 times. The precomputed splits are available in:
 -- train_idxs: Matrix with each row i containing training indexes of split i.
 -- test_idxs: Matrix with each row i containing test indexes of split i.
 -- val_idxs: Matrix with each row i containing val indexes of split i.
 ```
+The paper uses first 10 splits to compute error bars in automatic evaluations results. 
 Please see `news.py` for example loading of this dataset.
 
 ### 3. Code
