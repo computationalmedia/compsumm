@@ -1,0 +1,15 @@
+name: compsumm
+dependencies:
+  - python=3
+  - numpy
+  - joblib
+  - pandas
+  - scipy
+  - jupyter
+  - matplotlib
+  - scikit-learn
+  - h5py
+  - seaborn
+  - pip :
+    - mypy
+    - profilehooks
